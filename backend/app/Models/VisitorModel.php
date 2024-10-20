@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class VisitorModel extends Model
 {
-    protected $table = 'visitor';
-    protected $primaryKey = 'id_visitor';
+    protected $table = 'visitors';
+    protected $primaryKey = 'id';
     protected $allowedFields = ['name', 'email'];
 }
